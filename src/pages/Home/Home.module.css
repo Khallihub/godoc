@@ -1,0 +1,16 @@
+.document-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    margin: 20px auto;
+    width: 80vw;
+    max-width: 1200px;
+    gap: 20px;
+}
+
+.no-style {
+    text-decoration: none;
+    color: inherit;
+    outline: none;
+    border: none;
+}

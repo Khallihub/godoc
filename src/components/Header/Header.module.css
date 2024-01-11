@@ -1,0 +1,90 @@
+.header-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px;
+	background-color: white;
+	color: #333;
+	font-family: 'Poppins', sans-serif;
+}
+.company-name {
+	font-weight: bold;
+	font-size: 20px;
+	text-decoration: none;
+	color: #272436;
+}
+
+header {
+	position: sticky;
+	top: 0;
+	z-index: 1000; 
+	background-color: white;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px;
+	background-color: white;
+	color: #333;
+	font-family: 'Poppins', sans-serif;
+}
+
+.search-container {
+	position: relative;
+}
+
+.search-input {
+	flex: 1;
+	padding: 10px; /* Slightly reduced padding */
+	border: 0px solid #ccc;
+	border-radius: 20px; /* Slightly reduced border radius */
+	font-size: 17px; /* Slightly smaller font size */
+	background-color: #f5f5f7;
+	padding-right: 40px;
+	/* Adjusted right padding to make space for the icon */
+	width: 500px;
+}
+
+.search-icon {
+	background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+	position: absolute;
+	top: 50%;
+	right: 10px;
+	transform: translateY(-50%);
+	color: #272436; /* Adjust the color of the icon */
+}
+
+.logout-btn {
+	background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+	
+}
+
+.flex {
+	display: flex;
+	align-items: center;
+}
+
+.flex button, input[type="submit"] {
+	background: none;
+	color: inherit;
+	border: none;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+	font: inherit;
+}
